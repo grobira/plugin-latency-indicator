@@ -1,0 +1,19 @@
+{
+  "name": "plugin-network-latency",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "flex-plugin-scripts": "4.0.1",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "react-wifi-indicator": "^1.0.1"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "16.5.2"
+  }
+}
