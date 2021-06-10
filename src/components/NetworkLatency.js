@@ -9,8 +9,8 @@ import { Actions as LatencyStatusAction, } from '../states/LatencyState';
 
 import { withTheme, Notifications, NotificationType } from '@twilio/flex-ui';
 
-// CHANGE: Update this to the URL you wish to do pings tests against
-//         this will be called within the checkLatency() function below
+//CHANGEME: Update this to the URL you wish to do pings tests against
+//          this will be called within the checkLatency() function below
 const url = "http://localhost:3000";
 
 // This is leverage in our axios called to the website to convert the time
