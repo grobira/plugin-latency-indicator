@@ -1,4 +1,4 @@
 import * as FlexPlugin from 'flex-plugin';
-import NetworkLatencyPlugin from './NetworkLatencyPlugin';
+import VoiceQualityFeedbackPlugin from './VoiceQualityFeedbackPlugin';
 
-FlexPlugin.loadPlugin(NetworkLatencyPlugin);
+FlexPlugin.loadPlugin(VoiceQualityFeedbackPlugin);
